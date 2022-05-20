@@ -1,0 +1,10 @@
+server:
+  port: 5001
+spring:
+  application:
+    name: weather
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
